@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Стирка ковров</title>
+	<link rel="stylesheet" href="css/style.css">
+  	<link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+	<div class="mainSize" >
+		<header>
+			<div class="logo " >
+				<a href="index.html"><img src="img/logo-1.png" alt=""></a>
+			</div>
+			<nav class="nav" id="menu" >
+				<ul class="top-nav" id="myTopnav">
+					<li data-aos="fade-left" data-aos-delay="200">
+						<a  class="active" href="index.html">ГЛАВНАЯ</a>
+					</li>
+					<li data-aos="fade-left" data-aos-delay="300">
+						<a  href="#">НОВОСТИ</a>
+					</li>
+					<li data-aos="fade-left" data-aos-delay="400">
+						<a href="#calc" >
+							КАЛЬКУЛЯТОР 
+						</a>
+					</li >
+					<li data-aos="fade-left" data-aos-delay="500">
+						<a  href="#contact">КОНТАКТЫ</a>
+					</li>
+						<a href="#" id="menu" class="icon"> &#9776;</a>
+				</ul>
+			</nav>
+		</header>
+		<div class="container ">
+			<div class="img" data-aos="fade-right" data-aos-delay="300">
+				<img src="https://tazamaster.kz/wp-content/uploads/2019/07/chistka-kovrov-v-shymkente.jpg" alt="">
+			</div>
+			<div class="video" data-aos="zoom-in-right" data-aos-delay="300" >
+				<h1 class="tittle">
+					ВИДЕО
+				</h1>
+				<iframe width="600" height="360" src="https://www.youtube.com/embed/c-GibnbMl-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="wash" data-aos="fade-left">
+				<h1 class="tittle">
+					КАК МЫ МОЕМ КОВРЫ:
+				</h1>
+				<div class="cards">
+					<div class="card" data-aos="fade-left" data-aos-delay="100">
+						<img src="img/1.png" alt="">
+						<p>удаляем мусор и выбиваем пыль</p>
+					</div>
+					<div class="card" data-aos="fade-left" data-aos-delay="200">
+						<img src="img/2.png" alt="">
+						<p>обрабатываем пятна</p>
+					</div>
+					<div class="card" data-aos="fade-left" data-aos-delay="300">
+						<img src="img/3.png" alt="">
+						<p>производится антибактериальная обработка</p>
+					</div>
+					<div class="card" data-aos="fade-left" data-aos-delay="400">
+						<img src="img/4.png" alt="">
+						<p>ковры моются на спец. оборудовании</p>
+					</div>
+					<div class="card" data-aos="fade-left" data-aos-delay="500">
+						<img src="img/5.png" alt="">
+						<p>отжим и сушка в сушильной камере</p>
+					</div>
+				</div>
+			</div>
+			<div class="covers "  >
+				<h1 class="tittle" data-aos="fade-up" data-aos-delay="200">
+					ДО И ПОСЛЕ
+				</h1>
+				<div class="box" id="box" data-aos="fade-up" data-aos-delay="200">
+			        <img src="img/1.jpg" />
+			        <img src="img/2.jpg" />
+			    </div>
+			    <div class="box" id="box1" data-aos="fade-up" data-aos-delay="300">
+			        <img src="img/3.jpg" />
+			        <img src="img/4.jpg" />
+			    </div>
+			</div>
+			<div class="weUse" data-aos="zoom-in-right">
+				<h1 class="tittle">
+					НАШИ ПРЕИМУЩЕСТВА:
+				</h1>
+				<div class="brands1">
+					<div class="brand">
+						<img src="img/a4.png" alt="">
+						<p>Только специальные моющие средства</p>
+					</div>	
+					<div class="brand">
+						<img src="img/a2.png" alt="">
+						<p>Срок исполнения 2-4 дня</p>
+					</div>
+					<div class="brand">
+						<img src="img/a3.png" alt="">
+						<p>Гарантия качества 100%</p>
+					</div>
+				</div>
+				<div class="brands">
+					<div class="brand">
+						<img width="450px" src="img/a1.jpg" alt="">
+						<p>Профессиональные кадры на профессиональном оборудовании</p>
+					</div>
+					<div class="brand">
+						<img src="img/a5.png" alt="">
+						<p>Бесплатная доставка в оба конца</p>
+					</div>
+				</div>
+			</div>
+			<div class="calc" id="calc" data-aos="zoom-in-right">
+				<h1 class="tittle">
+					Калькулятор стоимости
+				</h1>
+				<div class="modal">
+					<div class="box-inp">
+						<label for="input">Длина, м</label>
+						<input type="text" id="num1">
+					</div>
+					<div class="box-inp">
+						<label for="input">Ширина, м</label>
+						<input type="text" id="num2">
+					</div>
+				</div>
+				<div class="allSum">
+					<label  for="input">Общая сумма, тг</label>
+					<input type="text"  id="res" readonly>
+				</div>
+				<div class="btn2">
+					<button onclick="plus()">Рассчитать</button>
+				</div>
+			</div>
+			<div class="contact" id="contact" >
+				<h1 class="tittle">
+					НАШИ КОНТАКТЫ
+				</h1>
+				<div class="whats" data-aos="zoom-in-up">
+					<a class="fusion-button button-3d fusion-button-pill button-xlarge button-custom button-3 fusion-animated" data-animationtype="rubberBand" data-animationduration="0.3" data-animationoffset="100%" target="_self" href="https://api.whatsapp.com/send?phone=77071872828&amp;text=Здравствуйте! Интересует чистка ковра" style="visibility: visible; animation-duration: 0.3s;"><i class=" fa fa-whatsapp button-icon-left"></i><span class="fusion-button-text">Написать на WhatsApp </span></a>
+				</div>
+				<div class="whats" data-aos="zoom-in-up">
+					<a class="fusion-button button-3d fusion-button-pill button-xlarge button-custom button-4 fusion-animated" data-animationtype="rubberBand" data-animationduration="0.3" data-animationoffset="100%" target="_self" href="tel:+77071872828" style="visibility: visible; animation-duration: 0.3s;"><i class=" fa fa-phone button-icon-left"></i><span class="fusion-button-text">ПОЗВОНИТЬ +7(707)1872828</span></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer" >
+			<div class="logo1">
+				<a href="index.html"><img src="img/logo-1.png" alt=""></a>
+			</div>
+			<div class="cont1">
+				 <p>Профессиональная чистка и мойка ковров в Шымкенте </p>
+				 <p>8 (707) 123 45 67</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script
+	 	src="https://code.jquery.com/jquery-3.4.1.js"
+  		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  		crossorigin="anonymous">
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script>
+  		AOS.init();
+	</script>
+	<script src="js/script.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script src="js/index.js" ></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+		    $("#menu").on("click","a", function (event) {
+		        event.preventDefault();
+		        var id  = $(this).attr('href'),
+		            top = $(id).offset().top;
+		        $('body,html').animate({scrollTop: top}, 1500);
+    	});
+});
+</script>
+</body>
+</html>
